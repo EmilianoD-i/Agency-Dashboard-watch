@@ -1,0 +1,36 @@
+{
+  "name": "Agency Dashboard",
+  "short_name": "Agency",
+  "description": "AI Ad Agency + Gym + Recovery tracker",
+  "start_url": "./agency_dashboard.html",
+  "display": "standalone",
+  "background_color": "#060610",
+  "theme_color": "#060610",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='115' fill='%23060610'/><text x='50%' y='54%' dominant-baseline='central' text-anchor='middle' font-size='300'>📈</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "health", "fitness"],
+  "shortcuts": [
+    {
+      "name": "Business",
+      "url": "./agency_dashboard.html#business",
+      "description": "View business metrics"
+    },
+    {
+      "name": "Gym",
+      "url": "./agency_dashboard.html#gym",
+      "description": "Log workout & macros"
+    },
+    {
+      "name": "Recovery",
+      "url": "./agency_dashboard.html#recovery",
+      "description": "Log recovery stats"
+    }
+  ]
+}
